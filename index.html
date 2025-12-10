@@ -20,19 +20,28 @@
       align-items: center;
       min-height: 100vh;
     }
- 
+
     h1 {
       font-size: 2rem;
       font-family: "Montserrat", sans-serif;
       margin-bottom: 30px;
       color: white;
     }
- 
+
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 5px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
     .container {
       display: flex;
       gap: 20px;
     }
- 
+
     .icon-link {
       display: flex;
       align-items: center;
@@ -47,14 +56,14 @@
       text-decoration: none;
       box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     }
- 
+
     .icon-link:hover {
       transform: scale(1.2) rotate(15deg);
       background: #333;
       box-shadow: 0 6px 12px rgba(0,0,0,0.5);
       color: #fff;
     }
- 
+
     @media (max-width: 480px) {
       h1 {
         font-size: 1.6rem;
@@ -68,17 +77,17 @@
   </style>
 </head>
 <body>
+  <img class="profile-image" src="avatar.png" alt="Profile Image">
   <h1>abonoah10</h1>
- 
+
   <div class="container">
     <a class="icon-link" href="https://www.twitch.tv/abonoah10" target="_blank"><i class="fa-brands fa-twitch"></i></a>
     <a class="icon-link" href="https://www.youtube.com/@Abonoah10" target="_blank"><i class="fa-brands fa-youtube"></i></a>
     <a class="icon-link" href="https://steamcommunity.com/profiles/76561197997217900/" target="_blank"><i class="fa-brands fa-steam"></i></a>
-    <a class="icon-link" href="https://twitter.com/yourname" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+    <!-- <a class="icon-link" href="https://twitter.com/yourname" target="_blank"><i class="fa-brands fa-twitter"></i></a>
     <a class="icon-link" href="https://www.instagram.com/abonoah10/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-    <a class="icon-link" href="https://discord.gg/yourinvitelink" target="_blank"><i class="fa-brands fa-discord"></i></a>
-     <a class="icon-link" href="https://www.tiktok.com/@abonoahi0"_blank"><i class="fa-brands fa-tiktok"></i></a>
-  </div>
+    <a class="icon-link" href="https://discord.gg/yourinvitelink" target="_blank"><i class="fa-brands fa-discord"></i></a> -->
+    <a class="icon-link" href="https://www.tiktok.com/@abonoahi0" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
   </div>
 </body>
 </html>
